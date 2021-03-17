@@ -12,7 +12,7 @@ const server =
       res.write('<html> <head> <title> Served </title> </head>')
       res.write('<body>')
       res.write('<table>')
-      res.write('<tr><th>Location</th><th>Expenditure </th><th>No.of hours</th></tr><tr><td>Kerala</td><td>300</td><td>8</td></tr><tr><td>Agra</td><td>400</td><td>6</td></tr><tr><td>Kashmir</td><td>200</td><td>5</td></tr><tr><td>Goa</td><td>700</td><td>8</td></tr>')
+      res.write('<tr><th>Location</th><th>Hours to be spent</th><th>Expenses</th></tr><tr><td>Mysore</td><td>10</td><td>$400</td></tr><tr><td>Kerala</td><td>8</td><td>$500</td></tr><tr><td>Goa</td><td>9</td><td>$800</td></tr><tr><td>Hampi</td><td>12</td><td>$200</td></tr>')
       res.write('</table>')    
       res.end('</body></html>')
       //Close the response
